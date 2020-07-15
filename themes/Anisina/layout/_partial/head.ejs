@@ -1,0 +1,78 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="<%= config.description %>">
+    <meta name="keyword" content="<%= config.keywords %>">
+    <meta name="theme-color" content="#600090">
+    <meta name="msapplication-navbutton-color" content="#600090">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#600090">
+    <% var image = config.pageImage %>
+    <% if(page.image) { %>
+    <% image = page.image %>
+    <% } %>
+
+    <% var description = config.description %>
+    <% if(page.description && site.data.authors.authors[page.index]) { %>
+        <% description = site.data.authors.authors[page.index].name + ' '  + page.description %>
+    <% } %>
+    
+    <meta property="og:site_name" content="<%= config.SEOTitle %>">
+    <meta property="og:type" content="blog">
+    <meta property="og:url" content="<%= config.SEOTitle %>">
+    <meta property="og:title" content="<%= page.title || config.SEOTitle %>">
+    <meta property="og:description" content="<%= description %>">
+    <meta property="og:image" content="<%= image %>">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="<%= config.SEOTitle %>">
+    <meta name="twitter:title" content="<%= page.title || config.SEOTitle %>">
+    <meta name="twitter:description" content="<%= description %>">
+    <meta name="twitter:image" content="<%= image %>">
+    <meta name="twitter:site" content="<%= config.SEOTitle %>">
+    <meta itemprop="name" content="<%= page.title || config.SEOTitle %>">
+    <meta itemprop="description" content="<%= description %>">
+    <meta itemprop="image" content="<%= image %>">
+    <!-- Open Graph data -->
+    <meta property="article:section" content="<%= config.SEOTitle %>">
+    <meta property="article:tag" content="<%= page.title %>">
+    <meta property="fb:admins" content="<%= config.SEOTitle %>">
+
+    <link rel="preconnect" href="<%= config.SEOTitle %>">
+    <link rel="shortcut icon" href="<%- config.favicon || 'https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png' %>">
+    <link rel="alternate" type="application/atom+xml" title="<%= config.title %>" href="/atom.xml">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- jQuery -->
+   <%- js('js/jquery.min.js') %>
+    <title>
+        <% if (page.title) { %>
+        <%= page.title + '｜' + config.SEOTitle %>
+        <% } else{ %>
+        <%= config.SEOTitle %>
+        <% } %>
+    </title>
+
+    <link rel="canonical" href="<%= config.url + config.root + (page.path || '').replace('index.html', '') %>">
+
+    <!-- Bootstrap Core CSS -->
+    <%- css('css/bootstrap.min.css') %>
+
+    <!-- Custom CSS -->
+    <%- css('css/blog-style.css') %>
+
+    <!-- Pygments Github CSS -->
+    <%- css('css/syntax') %>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172407842-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-172407842-1');
+    </script>
+
+</head>

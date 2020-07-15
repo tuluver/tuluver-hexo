@@ -1,0 +1,58 @@
+---
+layout: layout
+---
+
+<!-- Main Content -->
+<div class="container custom-haojen-container">
+    <!-- Post Container -->
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container">
+            <%- body %>
+        </div>
+        <!-- Sidebar Container -->
+        <div class="
+                col-lg-3 col-lg-offset-0
+                col-md-3 col-md-offset-0
+                col-sm-12
+                col-xs-12
+                sidebar-container
+            ">
+
+            <!-- Authors -->
+            <section  style="padding: 0 18px; width: 100%;">
+                        <hr>
+                        <h5 style="text-align: center;">Our Authors</h5>
+                        <ul class="list-inline" style="text-align: center;">
+                            <% site.data.authors.authors.forEach(function(author){ %>
+                                <li class="home-author-li"><a href="<%= author.profile %>" title="<%= author.name %>"><img src="<%= author.image %>" alt="<%= author.name %>" class="avatar home-list"></a></li>
+                            <% }); %>
+                        </ul>   
+            
+                        <div style="text-align: center;color: blueviolet;">
+                            <a type="button" class="btn btn-secondary btn-sm" href="/authors">See All Authors</a>
+                        </div>
+            </section>
+            <section  style="padding: 15% 18px; width: 100%;">
+                <div id="site_search" class="main-content-wrap">
+                    <input type="text" id="local-search-input" name="q" results="0" placeholder="search ..." class="form-control input--xlarge"/>
+                    <div id="local-search-result"></div>
+                </div>
+            </section>
+
+            <!-- Featured Tags  -->
+            <% if(config['featured-tags']) { %>
+            <section>
+                <div class="tags">
+                    <% site.tags.map(function(tag){ %>
+                    <% if(tag.length > config['featured-condition-size']) { %>
+                    <a href="<%= config.root %>tags/#<%= tag.name %>" title="<%= tag.name %>"
+                       rel="<%= tag.length %>"><%= tag.name %></a>
+                    <% } %>
+                    <% }) %>
+                </div>
+            </section>
+            <% } %>
+
+        </div>
+    </div>
+</div>

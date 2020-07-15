@@ -1,0 +1,49 @@
+---
+layout: layout
+---
+<style>
+    .intro-header .site-heading {
+        margin: 50px;
+    }
+    <% if (page["cdn"] === 'header-off'){%>
+    header.intro-header {
+        background-image: url('<%= page["header-img"] || config["post-default-img"]%>');
+    }
+
+    <%} else {%>
+    header.intro-header {
+        background-image: url('<%- page["header-img"]?(config["cdn-url"]?config["cdn-url"]:"")+page["header-img"]+config["clip-content"] : config["post-default-img"]%>')
+    }
+    <% } %>
+</style>
+
+<!-- Page Header -->
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading text-center">
+                    <h1>Contact us</h1>
+                    <span class="subheading"><%= page.description || config.subtitle || "" %></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>ತುಳುವೆರೆನ ಆಚಾರ ವಿಚಾರ ಸಂಸ್ಕೃತಿ ಬೊಕ ದೈವಾರಾಧನೆದ ಬಗ್ಗೆದ ಬರವುಲೆನ್ ನಮ್ಮ ಮಾತಾ ತುಳುವೆರೆಗ್ ಮುಟ್ಟಾವರೆ ಬೋಡಾದ್ ಉಂದು  ಎಂಕಲ್ನ ಒಂಜಿ ಎಲ್ಯ ಪ್ರಯತ್ನ. </p>
+
+                <p>ತುಳುವೆರೆನ ಮೂಲ ಕಟ್ಟು ಬೊಕ ಅವೈಧಿಕ ದೈವಾರಾಧನೆದ ಬಗ್ಗೆ ಎಂಕುಲ್ ಮಸ್ತ್ ಒತ್ತು ಕೊರೊಂದುಲ್ಲ. </p>
+                
+                <p>ನಿಕುಲುಲಾ ಉಂದು ವೆಬ್ ಸೈಟುಡ್ ಪೋಸ್ಟ್ ಮಲ್ಪೊಡುಂದಾಂಡ ನಿಕಲ್ನ ಬರವುನು ಎಂಕಲೆಗ್ ಕಡಪುಡ್ಲೆ. ಉಂದು ಫ್ರೀ ವೆಬ್ ಸೈಟ್ ಆಯಿನೆಟ್ಟಾತ್ರ ಉಂದೆಟ್ ನಿಕಲೆಗ್ ಲಾಗಿನ್ ಮಲ್ಪರೆ ಆಪುಜಿ. ಎಂಕುಲೆ ಪೋಸ್ಟ್ ಮಲ್ಪೊಡಾಪುಂಡು. ನಿಕಲ್ನ ಸುರುತ ಪೋಸ್ಟ್ ಪಾಡುನಗ ನಿಕಲೆನ ಪ್ರೊಫೈಲ್ ಉಂದೆಟ್ ಮಲ್ಪರೆ ಒಂಜಿ ಫೋಟೋ ಬೊಕ ನಿಕಲ್ನ ಬಗ್ಗೆ ರಡ್ಡು ಪಾತೆರ ಬರೆದು ಕಡಪುಡ್ಲೆ. </p>
+                
+                <p><b>ನಮ್ಮ ತುಳುನಾಡುದ ಮೂಲ ಕಟ್ಟುಲೆನ್ ನಮ ಒರಿಪುಗ. </b></p>
+
+                <p style="color: darkred;">Email: tuluver.github.io@gmail.com</p>
+        </div>
+    </div>
+</div>

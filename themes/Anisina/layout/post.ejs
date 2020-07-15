@@ -1,0 +1,274 @@
+---
+layout: layout
+---
+
+<style>
+    <% if (page["cdn"] === 'header-off'){%>
+    header.intro-header {
+        background-image: url('<%= page["header-img"] || config["post-default-img"]%>');
+    }
+
+    <%} else {%>
+    header.intro-header {
+        background-image: url('<%- page["header-img"] ? ((config["cdn-url"]?config["cdn-url"]:"")+page["header-img"]+config["clip-content"]) : config["post-default-img"] %>')
+    }
+
+    <% } %>
+
+
+@media (min-width: 768px) {
+    .container {
+    width: 750px;
+    }
+}   
+@media (min-width: 992px) {
+    .container {
+    width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+    width: 1250px;
+  }
+}
+
+ /* .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+} */
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+ /* 
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+} */
+</style>         
+<% var i = page.index; %>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                <div class="post-heading">
+                    <h1><%= page.title %></h1>
+                    <% if(page.subtitle) { %>
+                    <h2 class="subheading"><%= page.subtitle %></h2>
+                    <% } %>
+                    <span class="meta">
+                        Post date: <%= page.date.format(config.date_format) %>
+                    </span>
+                    </span>
+                    <div class="tags text-center">
+                        <% page.tags.forEach(function(tag){ %>
+                        <a class="tag" href="<%= config.root %>tags/#<%= tag.name %>"
+                           title="<%= tag.name %>"><%= tag.name %></a>
+                        <% }) %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="post-title-haojen">
+        <span>
+            <%- page.title %>
+        </span>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+                <div class="hidden-xs col-sm-2 toc-col">
+                        <div class="toc-wrap">          
+                            <%- toc(page.content, {list_number: false}) %>
+                        </div>
+                    </div>
+            <!-- Post Container -->
+            <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container" style="margin-top: 1%;">
+                <div class="row">
+                        <div class="column left">
+                                <a href="<%= site.data.authors.authors[i].profile %>"><img src="<%= site.data.authors.authors[i].image %>" alt="Avatar" class="avatar"></a>
+                        </div>
+                        <div class="column right">
+                            <h2><%- site.data.authors.authors[i].name %></h2>
+                        <p class="title"><%- site.data.authors.authors[i].title %></p>
+                        <p><%- site.data.authors.authors[i].description %></p>
+                        </div>
+                </div>
+                <%- page.content %>
+                <hr>
+                
+
+                <ul class="pager">
+                    <% if (page.prev){ %>
+                    <li class="previous">
+                        <a href="<%- config.root %><%- page.prev.path %>" data-toggle="tooltip" data-placement="top"
+                           title="<%- page.prev.title %>">&larr; Previous Post</a>
+                    </li>
+                    <% } %>
+                    <% if (page.next){ %>
+                    <li class="next">
+                        <a href="<%- config.root %><%- page.next.path %>" data-toggle="tooltip" data-placement="top"
+                           title="<%- page.next.title %>">Next Post &rarr;</a>
+                    </li>
+                    <% } %>
+                </ul>
+
+                <% if(config.disqus.enable){ %>
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                <% } %>
+                <!-- <% if(config['duoshuo_username']) { %>
+                <!-- 多说评论框 start 
+                <div class="comment">
+                    <div class="ds-thread"
+                         data-thread-key="<%= page.path %>"
+                         data-title="<%= page.title %>"
+                         data-url="<%= page.permalink %>">
+                    </div>
+                </div>
+                <!-- 多说评论框 end 
+                <% } %> -->
+
+
+
+                <!--加入新的评论系统-->
+                <!-- <% if(config['use_livere']) {%>
+                <!-- 来必力City版安装代码 
+                <div id="lv-container" data-id="city" data-uid="<%= config['livere_uid'] %>">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 
+                <%}%> -->
+
+                <!-- <% if(theme.valine && theme.valine.enable) { %>
+                    <!-- Valine 
+                    <div class="vcomments"></div>
+                    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+                    <script src="//cdn.jsdelivr.net/npm/valine"></script>
+                    <script>
+                        var GUEST = ['nick','mail','link'];
+                        var meta = '<%= theme.valine.meta %>';
+                        meta = meta.split(',').filter(function (item) {
+                            return GUEST.indexOf(item)>-1;
+                        });
+                        var notify = '<%= theme.valine.notify %>' == true ? true : false;
+                        var verify = '<%= theme.valine.verify %>' == true ? true : false;
+                        new Valine({
+                            el: '.vcomments',
+                            notify: notify,
+                            verify: verify,
+                            app_id: "<%= theme.valine.appid %>",
+                            app_key: "<%= theme.valine.appkey %>",
+                            placeholder: "<%= theme.valine.placeholder %>",
+                            avatar:"<%= theme.valine.avatar %>",
+                            meta:meta
+                        });
+                    </script>
+                <% } %> -->
+
+            </div>
+
+            <!-- <div class="hidden-xs col-sm-3 toc-col">
+                <div class="toc-wrap">
+                        <!-- <h2 style="text-align:center">User Profile Card</h2> 
+
+                        <div class="card">
+                        <img src="/images/team2.jpg" alt="John" style="width:100%">
+                        <h1>ಅಶ್ವಿನ್ ಪೂಜಾರಿ</h1>
+                        <p class="title">ಉಳ್ಳೇರಗುತ್ತು</p>
+                        <p> ಕಾರ್ನಾಡು ಧರ್ಮಸ್ಥಾನ, ಮುಲ್ಕಿ</p>
+                        <div style="margin: 24px 0;">
+                            <a href="#"><i class="fa fa-dribbble"></i></a> 
+                            <a href="#"><i class="fa fa-twitter"></i></a>  
+                            <a href="#"><i class="fa fa-linkedin"></i></a>  
+                            <a href="#"><i class="fa fa-facebook"></i></a> 
+                        </div>
+                        <p><button>Contact</button></p>
+                        </div>
+                    <!-- <%- toc(page.content, {list_number: false}) %> 
+                </div>
+            </div> -->
+        </div>
+
+        <div class="row">
+            <!-- Sidebar Container -->
+
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+                <%- config['featured-tags'] %>
+                <!-- Featured Tags -->
+                <% if(config['featured-tags']) { %>
+                <section>
+                    <!-- no hr -->
+                    <h5 class="text-center">
+                        <a href="<%= config.root %>tags/">FEATURED TAGS</a>
+                    </h5>
+                    <div class="tags">
+                        <% page.tags.forEach(function(tag){ %>
+                        <a class="tag" href="<%= config.root %>tags/#<%= tag.name %>"
+                           title="<%= tag.name %>"><%= tag.name %></a>
+                        <% }) %>
+                    </div>
+                </section>
+                <% } %>
+
+                <!-- Friends Blog -->
+                <% if(config.friends) { %>
+                <div style="margin-top: 20px;">
+                    <h5 class="text-center">FRIENDS</h5>
+                    <ul class="list-inline text-center">
+                        <% config.friends.forEach(function(friend){ %>
+                        <li><a href="<%= friend.href %>"><%= friend.title %></a></li>
+                        <% }); %>
+                    </ul>
+                </div>
+                <% } %>
+            </div>
+        </div>
+
+    </div>
+</article>
