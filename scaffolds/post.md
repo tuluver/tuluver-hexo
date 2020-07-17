@@ -1,6 +1,7 @@
 ---
 layout: post
 title: {{ title }}
+subtitle: {{ title }}
 date: {{ date }}
 image: /images/default.jpg
 description:
