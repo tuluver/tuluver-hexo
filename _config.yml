@@ -114,7 +114,9 @@ search:
 
 sitemap:
   path: sitemap.xml
-  #template: ./sitemap_template.xml
-  rel: false
-  tags: true
-  categories: true
+  tag: false
+  category: false
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value

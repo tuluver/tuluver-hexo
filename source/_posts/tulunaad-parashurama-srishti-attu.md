@@ -2,9 +2,8 @@
 layout: post
 title: ತುಳುನಾಡ್ ಪರಶುರಾಮ ಸೃಷ್ಟಿ ಅತ್ತ್
 subtitle: Tulunaad Parashurama srishti attu
-image: /images/default.jpg
-tags:
-  - Mahendranath_Salettur
+image: /images/post/july17_2020_1.jpg
+tags: ['Mahendranath_Salethoor', 'parasurama']
 header-img: images/header3.jpg
 cdn: header-on
 index: 0
