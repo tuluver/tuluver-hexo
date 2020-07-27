@@ -120,6 +120,9 @@ button:hover, a:hover {
                         <p><%- site.data.authors.authors[i].description %></p>
                         </div>
                 </div>
+                <div class="whatsapp-share">
+                    <a href="whatsapp://send?text=<%= page.permalink %>" data-action="share/whatsapp/share" onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" title="Share on whatsapp">Share on whatsapp</a>
+                </div>
                 <%- page.content %>
                 <hr>
                 
@@ -239,7 +242,6 @@ button:hover, a:hover {
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 sidebar-container">
-                <%- config['featured-tags'] %>
                 <!-- Featured Tags -->
                 <% if(config['featured-tags']) { %>
                 <section>

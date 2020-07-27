@@ -4,13 +4,15 @@ authors:
     subtitle: 
     image: /images/salettur.jpeg
     profile: /mahendranath-salethoor/
+    youtube: TULUORIPUGA
     posts: /tags/#Mahendranath_Salethoor
     description: ಕನ್ನಡ - ತುಳು ಕವಿ, ಸಾಹಿತಿ, ವಾಗ್ಮಿ, ವಿಮರ್ಶಕೆರ್. ಕತೆ, ನಾಟಕ, ಪ್ರಹಸನ, ಚರ್ಚೆ ಬರೆಪುನಾರ್, ಪಾತೆರುನಾರ್.
   - name: Tuluver
     title: ತುಳುವೆರ್
     subtitle: 
-    image: /images/tuluver.jpg
+    image: /images/tuluver.png
     profile: /tuluver/
+    youtube:
     posts: /tags/#Tuluver
     description: tuluver.github.io
   - name: Ashwin Kumar
@@ -18,6 +20,7 @@ authors:
     subtitle: ಉಳ್ಳೇರಗುತ್ತು, ದರ್ಮಾಸಾನ ಕಾರ್ನಾಡು, ಮುಲ್ಕಿ  
     image: /images/ash.jpg
     profile: /ashwin-mulky/
+    youtube:
     posts: /tags/#AshwinMulky
     description: 
   - name: Sandeep Poojary
@@ -25,5 +28,6 @@ authors:
     subtitle: ದರ್ಮಾಸಾನ ಕಾರ್ನಾಡು, ಮುಲ್ಕಿ  
     image: /images/sandeep.jpg
     profile: /sandeep-poojary/
+    youtube:
     posts: /tags/#SandeepPoojary
     description: 

@@ -11,7 +11,9 @@ author: Ashwin
 language: en
 timezone: ''
 SEOTitle: tuluver.github.io
-pageImage: /images/default.jpg
+pageImage: /images/tuluver.png
+
+favicon: /images/tuluver.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -116,6 +118,12 @@ sitemap:
   path: sitemap.xml
   tag: false
   category: false
+
+# lazyload:
+#   enable: true
+#   onlypost: false # optional
+#   loadingImg: /images/tuluver.png
+#   isSPA: false # optional
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
