@@ -142,7 +142,7 @@ button:hover, a:hover {
                     <% } %>
                 </ul>
 
-                <% if(config.disqus.enable){ %>
+                <% if(config.disqus.enable && !page.onhold){ %>
                 <!-- disqus 评论框 start -->
                 <div class="comment">
                     <div id="disqus_thread" class="disqus-thread"></div>

@@ -10,7 +10,7 @@ layout: page
      >
     <a href="<%- config.root %><%- post.path %>">
         <h2 class="post-title">
-            <%- post.title %>
+            <%- post.title %> <% if(post.edited) { %> Updated <% } %>
         </h2>
         <!-- <% if (post.subtitle && post.subtitle.length) { %>
         <h3 class="post-english">
@@ -36,7 +36,7 @@ layout: page
      >
     <a href="<%- config.root %><%- post.path %>">
         <h2 class="post-title">
-            <%- post.title %>
+            <%- post.title %><% if(post.edited) { %> <span style="font-size: medium;" class="badge badge-pill badge-danger">Updated</span> <% } %>
         </h2>
         <!-- <% if (post.subtitle && post.subtitle.length) { %>
         <h3 class="post-english">
