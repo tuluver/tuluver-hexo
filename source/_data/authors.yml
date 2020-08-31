@@ -4,9 +4,41 @@ authors:
     subtitle: 
     image: /images/salettur.jpeg
     profile: /mahendranath-salethoor/
-    youtube: TULUORIPUGA
+    youtube: THULUORIPUGA
     posts: /tags/#Mahendranath_Salethoor
     description: ತುಳು ಸಾಹಿತ್ಯ ರತ್ನ, ಜೋಗಿ ಸಾಹಿತ್ಯ ಶ್ರೀ ಪ್ರಶಸ್ತಿ ಪುರಸ್ಕೃತೆರ್. ತುಳು - ಕನ್ನಡ ಕವಿ, ಸಾಹಿತಿ, ವಾಗ್ಮಿ, ವಿಮರ್ಶಕೆರ್. 
+    images:
+      - image: /images/satya-sahanta-01.jpg
+        caption: ಸತ್ಯಶಾಂತ ಪ್ರತಿಷ್ಠಾನದ ಮಾನಾದಿಗೆ
+      - image: /images/satya-sahanta-02.jpg
+        caption: ಸತ್ಯಶಾಂತ ಪ್ರತಿಷ್ಠಾನದ ಮಾನಾದಿಗೆ
+      - image: /images/jogi-sahitya-01.jpg
+        caption: ಕೆ ಮಹೇಂದ್ರನಾಥ್ ಸಾಲೆತ್ತೂರ್ ಜೋಗಿ ಸಾಹಿತ್ಯಶ್ರೀ ಪ್ರಶಸ್ತಿ
+      - image: /images/jogi-sahitya-02.jpg
+        caption: ರಾಜ್ಯ ಮಟ್ಟದ ಜೋಗಿ ಸಾಹಿತ್ಯ ಶ್ರೀ ಪಡೆಯಿನ ಪೊರ್ತು
+      - image: /images/jogi-sahitya-03.jpg
+        caption: ಎನ್ನ ಗುರ್ಕಾರ್ದಿನೊಟ್ಟುಗು ಪ್ರಶಸ್ತಿ ಪಟ್ಟೊನ್ನಿ
+      - image: /images/datta_nagara_01.jpg
+        caption: ಮಹೇಂದ್ರನಾಥ್ ಸಾಲೆತ್ತೂರ್ ರೆಗ್ ದತ್ತನಗರ ಕುಡ್ಲ ನಿವಾಸಿಲೆರ್ದ್ ಮಾನದಿಗೆ
+      - image: /images/datta_nagara_02.jpg
+        caption: ಮಹೇಂದ್ರನಾಥ್ ಸಾಲೆತ್ತೂರ್ ರೆಗ್ ದತ್ತನಗರ ಕುಡ್ಲ ನಿವಾಸಿಲೆರ್ದ್ ಮಾನದಿಗೆ
+      - image: /images/datta_nagara_03.jpg
+        caption: ಮಹೇಂದ್ರನಾಥ್ ಸಾಲೆತ್ತೂರ್ ರೆಗ್ ದತ್ತನಗರ ಕುಡ್ಲ ನಿವಾಸಿಲೆರ್ದ್ ಮಾನದಿಗೆ
+      - image: /images/tulu_sahitya_ratna_01.JPG
+        caption: ಮಹೇಂದ್ರನಾಥ್ ಸಾಲೆತ್ತೂರ್ ಮೇರೆಗ್ "ತುಳು ಸಾಹಿತ್ಯ ರತ್ನ" ಪ್ರಶಸ್ತಿ
+    links:
+      - link: http://kmahendranath.blogspot.com/
+        caption: Blogspot
+      - link: https://www.facebook.com/mahendranath.salethoor/media_set?set=a.1214923438595318&type=3
+        caption: MAHENDRANATH SALETHOOR NADATH BATHI PAJJELU - facebook
+      - link: https://www.facebook.com/groups/THULUORIPUGA
+        caption: THULU ORIPUGA - facebook group
+      - link: https://www.facebook.com/k.mahendranath.salethoor/
+        caption: Thuluoripuga - facebook page
+      - link: https://www.facebook.com/groups/184121268378848
+        caption: THULU SAHITHYA PARISHATH - facebook
+      - link: https://www.youtube.com/results?search_query=MAHENDRANATHSALETHOOR+THULU+BHASANOLU
+        caption: MAHENDRANATH SALETHOOR THULU BHASANOLU - youtube
   - name: Tuluver
     title: ತುಳುವೆರ್
     subtitle: 
@@ -15,6 +47,12 @@ authors:
     youtube:
     posts: /tags/#Tuluver
     description: tuluver.github.io
+    images:
+      - image: /images/tuluver.png
+        caption: ತುಳುವೆರ್
+    links:
+      - link:
+        caption:
   - name: Ashwin Kumar
     title: ಅಶ್ವಿನ್ ಕುಮಾರ್ 
     subtitle: ಉಳ್ಳೇರಗುತ್ತು, ದರ್ಮಾಸಾನ ಕಾರ್ನಾಡು, ಮುಲ್ಕಿ  
@@ -23,6 +61,12 @@ authors:
     youtube:
     posts: /tags/#AshwinMulky
     description: 
+    images:
+      - image: /images/tuluver.png
+        caption: ತುಳುವೆರ್
+    links:
+      - link:
+        caption:
   - name: Sandeep Poojary
     title: ಸಂದೀಪ್ ಪೂಜಾರಿ 
     subtitle: ದರ್ಮಾಸಾನ ಕಾರ್ನಾಡು, ಮುಲ್ಕಿ  
@@ -31,3 +75,9 @@ authors:
     youtube:
     posts: /tags/#SandeepPoojary
     description: 
+    images:
+      - image: /images/tuluver.png
+        caption: ತುಳುವೆರ್
+    links:
+      - link:
+        caption:
