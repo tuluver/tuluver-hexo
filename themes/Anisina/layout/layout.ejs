@@ -5,12 +5,17 @@
 <%- partial('_partial/head') %>
 <style>
 
-    header.intro-header {
-        background-image: url('<%= config["header-img"]%>')
-    }
+    /* header.intro-header {
+        background-image: url('/images/tuluver.jpg');
+    } */
+  @media print {
+  html, body {
+    display: none;  /* hide whole page */
+  }
+}
 </style>
 <!-- hack iOS CSS :active style -->
-<body ontouchstart="" class="animated fadeIn">
+<body ontouchstart="" class="animated fadeIn" onselectstart="{alert('Copy ಮಲ್ಪಡೆ. Link share ಮಲ್ಪುಲೆ.');return false;}">
 <%- partial('_partial/nav') %>
 <!-- Main ConNo contenttent -->
 <%- body || '' %>

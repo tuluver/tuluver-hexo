@@ -53,14 +53,14 @@ authors:
     links:
       - link:
         caption:
-  - name: Ashwin Kumar
-    title: ಅಶ್ವಿನ್ ಕುಮಾರ್ 
+  - name: Ashwin Poojari, Ulleraguttu
+    title: ಅಶ್ವಿನ್ ಪೂಜಾರಿ, ಉಳ್ಳೇರಗುತ್ತು
     subtitle: ಉಳ್ಳೇರಗುತ್ತು, ದರ್ಮಾಸಾನ ಕಾರ್ನಾಡು, ಮುಲ್ಕಿ  
     image: /images/ash.jpg
     profile: /ashwin-mulky/
     youtube:
     posts: /tags/#AshwinMulky
-    description: 
+    description:
     images:
       - image: /images/tuluver.png
         caption: ತುಳುವೆರ್
@@ -75,6 +75,20 @@ authors:
     youtube:
     posts: /tags/#SandeepPoojary
     description: 
+    images:
+      - image: /images/tuluver.png
+        caption: ತುಳುವೆರ್
+    links:
+      - link:
+        caption:
+  - name: Shailu Birva Agattadi Dola Baarike
+    title: ಶೈಲು ಬಿರ್ವ ಅಗತ್ತಾಡಿ ದೋಲ ಬಾರಿಕೆ
+    subtitle: ಅಗತ್ತಾಡಿ ದೋಲ ಬಾರಿಕೆ
+    image: /images/shailu.jpg
+    profile: /shailu-birva/
+    youtube:
+    posts: /tags/#ShailuBirva
+    description: ಬಾಕಿಲ ಗುತ್ತು
     images:
       - image: /images/tuluver.png
         caption: ತುಳುವೆರ್

@@ -57,8 +57,8 @@ description: ತುಳುವೆರೆಗ್ ಬೇಸದ ತನು ವಿನಃ 
 
 > <span style="font-size:18px;">`ಎಸಲ್ 2 ನ್ ಮೂಲು ಓದುಲೆ`</span><i class="fa fa-hand-o-right" style="font-size:18px;"></i> <a href="/2020/08/30/tulunaada-nagaradhane-esal-2/">ತುಳುನಾಡ ನಾಗಾರಾಧನೆ - ಎಸಲ್ 2</a>
 
-{% youtube mBovPHK75CY %}
-
 >> - ಕೆ.ಮಹೇಂದ್ರ ನಾಥ್.ಸಾಲೆತ್ತೂರು.ಎಂ.ಎ.
+
+{% youtube mBovPHK75CY %}
 
 > <span style="font-size:18px;">`ಎಸಲ್ 2 ನ್ ಮೂಲು ಓದುಲೆ`</span><i class="fa fa-hand-o-right" style="font-size:18px;"></i> <a href="/2020/08/30/tulunaada-nagaradhane-esal-2/">ತುಳುನಾಡ ನಾಗಾರಾಧನೆ - ಎಸಲ್ 2</a>

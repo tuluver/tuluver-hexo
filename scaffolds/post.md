@@ -3,10 +3,10 @@ layout: post
 title: {{ title }}
 subtitle: {{ title }}
 date: {{ date }}
-image: /images/default.jpg
+image: /images/tuluver.jpg
 description:
 tags: ['Mahendranath_Salethoor']
-header-img: "images/header3.jpg"
+header-img: /images/tuluver.jpg
 cdn: 'header-on'
 index: 0
 ---
