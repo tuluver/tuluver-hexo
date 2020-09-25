@@ -235,8 +235,6 @@ header .share-header {
                 <%- page.content %>
                 <a href="#" onclick="sharePost('<%= page.permalink %>')" style="font-size:2rem">Share this post <i class="fa fa-share-alt" aria-hidden="true"></i></a>
                 <hr>
-                
-
                 <ul class="pager">
                     <% if (page.prev){ %>
                     <li class="previous">
@@ -250,10 +248,7 @@ header .share-header {
                            title="<%- page.next.title %>">Next Post &rarr;</a>
                     </li>
                     <% } %>
-                </ul>
-                <br />
-                <h3>Recent Posts:</h3>
-                <%- list_posts() %>
+                </ul>         
                 <% if(config.disqus.enable && !page.onhold){ %>
                 <!-- disqus 评论框 start -->
                 <div class="comment">
@@ -261,6 +256,8 @@ header .share-header {
                 </div>
                 <!-- disqus 评论框 end -->
                 <% } %>
+                <h3>Recent Posts:</h3>
+                <%- list_posts() %>
                 <!-- <% if(config['duoshuo_username']) { %>
                 <!-- 多说评论框 start 
                 <div class="comment">
