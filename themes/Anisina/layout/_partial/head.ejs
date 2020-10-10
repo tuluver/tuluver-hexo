@@ -15,47 +15,48 @@
     <% image = page.image %>
     <% } %>
 
+    <% var titletext = config.SEOTitle %>
+    <% if(page.title) { %>
+        <% titletext = page.subtitle + '|'+ page.title %>
+    <% } %>
+
     <% var description = config.description %>
     <% if(page.description && site.data.authors.authors[page.index]) { %>
-        <% description = site.data.authors.authors[page.index].name + ' '  + page.description %>
+        <% description = site.data.authors.authors[page.index].name + '|'  + page.description %>
     <% } %>
     
     <meta property="og:site_name" content="<%= config.SEOTitle %>">
     <meta property="og:type" content="blog">
     <meta property="og:url" content="<%= config.SEOTitle %>">
-    <meta property="og:title" content="<%= page.title || config.SEOTitle %>">
+    <meta property="og:title" content="<%= titletext || config.SEOTitle %>">
     <meta property="og:description" content="<%= description %>">
     <meta property="og:image" content="<%= image %>">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="<%= config.SEOTitle %>">
-    <meta name="twitter:title" content="<%= page.title || config.SEOTitle %>">
+    <meta name="twitter:title" content="<%= titletext || config.SEOTitle %>">
     <meta name="twitter:description" content="<%= description %>">
     <meta name="twitter:image" content="<%= image %>">
     <meta name="twitter:site" content="<%= config.SEOTitle %>">
-    <meta itemprop="name" content="<%= page.title || config.SEOTitle %>">
+    <meta itemprop="name" content="<%= titletext || config.SEOTitle %>">
     <meta itemprop="description" content="<%= description %>">
     <meta itemprop="image" content="<%= image %>">
     <!-- Open Graph data -->
     <meta property="article:section" content="<%= config.SEOTitle %>">
-    <meta property="article:tag" content="<%= page.title %>">
+    <meta property="article:tag" content="<%= titletext %>">
     <meta property="fb:admins" content="<%= config.SEOTitle %>">
 
     <link rel="preconnect" href="<%= config.SEOTitle %>">
-    <link rel="shortcut icon" href="<%- config.favicon || 'https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png' %>">
+    <link rel="shortcut icon" href="<%- config.favicon %>">
     <link rel="alternate" type="application/atom+xml" title="<%= config.title %>" href="/atom.xml">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/bootstrap-slider.min.js"></script> -->
     <!-- jQuery -->
    <%- js('js/jquery.min.js') %>
-    <title>
-        <% if (page.title) { %>
-        <%= page.title + '｜' + config.SEOTitle %>
-        <% } else{ %>
-        <%= config.SEOTitle %>
-        <% } %>
-    </title>
+   <% var pageTitle = 'Tuluver | ತುಳುವೆರ್' %>
+   <% if (page.subtitle) { %>
+    <% pageTitle = page.subtitle + '|'+ page.title %>
+   <% } %>
+    <title><%= pageTitle %></title>
 
     <link rel="canonical" href="<%= config.url + config.root + (page.path || '').replace('index.html', '') %>">
 

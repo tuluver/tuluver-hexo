@@ -128,7 +128,6 @@
         search_path = "search.xml";
     }
     var path = "<%= config.root %>" + search_path;
-    console.log(path);
     searchFunc(path, 'local-search-input', 'local-search-result');
 </script>
 
@@ -197,47 +196,5 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 <% } %>
-
-<!-- Google Analytics -->
-
-<!-- <% if (config.ga_track_id) { %>
-<script>
-    // dynamic User by Hux
-    var _gaId = '<%= config.ga_track_id %>';
-    var _gaDomain = '<%- config.ga_domain || "auto" %>';
-    // Originial
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', _gaId, _gaDomain);
-    ga('send', 'pageview');
-</script>
-<% } %> -->
-
-<!-- Baidu Tongji -->
-<% if (config.ba_track_id) { %>
-<script>
-    var _baId = '<%= config.ba_track_id %>';
-    // Originial
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?" + _baId;
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
-<% } %>
-
-<!-- swiftype -->
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install','<%= config.swiftype_key%>','2.0.0');
-</script>
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
