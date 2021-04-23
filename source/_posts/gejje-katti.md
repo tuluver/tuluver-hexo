@@ -10,6 +10,7 @@ header-img: /images/tuluver.jpg
 cdn: header-on
 index: 4
 date: 2020-09-25 18:55:36
+metadescription: Gejje katti Tulunad
 description: ಹಿಂದಿನ ಕಾಲದಲ್ಲಿ ಹೆಣ್ಣು ಪ್ರಾಯಕ್ಕೆ ಬಂದಾಗ ತಾಯಿಯಾದವಳು ಮಗಳ ಕೈಯಲ್ಲಿ ಯಾವತ್ತು ಇರುವಂತೆ ಸಣ್ಣ ಕತ್ತಿಯನ್ನು ನೀಡುತ್ತಿದ್ದಳು.
 ---
 # ತುಳುನಾಡ ನಂಬಿಕೆಯಲ್ಲಿ ಗೆಜ್ಜೆ ಕತ್ತಿಯ ಮಹತ್ವ

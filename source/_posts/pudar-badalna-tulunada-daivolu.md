@@ -3,6 +3,7 @@ layout: post
 title: ಪುದರ್ ಬದಲ್ನ ತುಳುನಾಡ ದೈವೊಲು
 subtitle: Pudar badalna tulunaada daivolu 
 image: /images/default.jpg
+metadescription: Daiva Pudar Tulunad
 description: ತುಳುನಾಡಿನಿ ಮಾತೆರೆಗ್ಲಾ ಪ್ರಯೋಗ ಶಾಲೆ ಆದ್ ಪೋಂಡ್ . ನಮ್ಮ ತುಳುನಾಡ್ದ ಊರುಲು ಕನ್ನಡದ ಮರ್ಲ್ಡ್ ಮಾಯಕಾದ್ ಪೋಯ. ಅಂಚನೆ ಪೊಪ್ಪ ಅಪ್ಪೆ ಇಂಚಿಪ್ಪಿ ನರಮಾನಿ ಸಮ್ಮಂದೊಲು ಪರೆಂಗಿ ಬಾಸೆದ ಮರ್ಲ್ಡ್ ಮಾಜೊಂದು ಪೋಯ . ಅಂಚನೆ ಇನಿ ದೇವಾಲ್ಯ ಸಂಸ್ಕೃತಿದ ಪುರೋಹಿತಶಾಹಿಲ್ನ ಕೈಕ್ ನಮ್ಮ ದೈವಲ್ಯೊಲು ತಿಕ್ದ್ ದೇವಾಲ್ಯೊಡು ದಾಲ ಲಾಭ ದಾಂತೆ ಪೋನಗ ಅಕ್ಲೆ ಕಣ್ಣ್ ತುಳುನಾಡ ದೈವೊಲ್ಯದ ಮಿತ್ತ್ ಬೂರ್ನ್ಡ್ . ಬರಡ್ ಪಂಡ್ ದ್ ಮನಿಪಂದೆ ಕುಲ್ಯ . ಅಕ್ಲ್ ಮನಿಪಂದೆ ಕುಲ್ಜೆರ್ .
 tags: ['Mahendranath_Salethoor']
 header-img: images/header3.jpg

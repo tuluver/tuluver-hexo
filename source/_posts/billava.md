@@ -10,6 +10,7 @@ header-img: images/header3.jpg
 cdn: header-on
 index: 4
 date: 2020-09-03 19:27:18
+metadescription: Billava Biruver Billawa Baidya Poojari
 description: ತುಳುನಾಡಿನ ಮೂಲ ಜನಾಂಗಗಳ ಬಗ್ಗೆ ಕೆದಕಲು ಹೊರಟಾಗ ಮೇಲ್ಪಂಕ್ತಿಯಲ್ಲಿ ನಿಲ್ಲುವವರು ಬಿಲ್ಲವ ಜನಾಂಗ
 ---
 

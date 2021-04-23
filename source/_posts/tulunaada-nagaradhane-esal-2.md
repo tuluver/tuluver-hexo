@@ -10,6 +10,7 @@ header-img: images/header3.jpg
 cdn: header-on
 index: 0
 date: 2020-08-30 19:27:30
+metadescription: Naga Nagaradhane Tulunad part 2
 description: ನಾಗಾರಾಧನೆ ಅನಾದಿಡ್ದ್ ಉಪ್ಪುನ ತುಳುನಾಡುಗ್ಲಾ ನಾಗರಪಂಚೆಮಿಗ್ಲಾ ವಾ ಸಮ್ಮಂದಲ ತೆರಿದ್ ಬರ್ಪುಜಿ. ತುಳುನಾಡುಡ್ ಇಜ್ಜಂದಿ ಶನಿಪೂಜೆ, ಸತ್ಯ ನಾರಾಯಣ ಪೂಜೆ, ವರ ಮಹಾಲಕ್ಷ್ಮಿ ಪೂಜೆಲು
 ---
 

@@ -10,6 +10,7 @@ header-img: /images/tuluver.jpg
 cdn: header-on
 index: 4
 date: 2020-09-11 14:53:31
+metadescription: Billava Billawa Maduve Marriage
 description: ಮದುವೆ ಎನ್ನುವುದು ಎರಡು ಜೀವಗಳನ್ನು ಬೆಸೆಯುವುದರ ಜೊತೆಗೆ ಸಂತಾನಾಭಿವೃದ್ಧಿಯ ದ್ಯೋತಕವು ಹೌದು. 
 ---
 

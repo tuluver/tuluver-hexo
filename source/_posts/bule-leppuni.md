@@ -10,6 +10,7 @@ header-img: images/header3.jpg
 cdn: header-on
 index: 0
 date: 2020-08-13 17:11:44
+metadescription: Bule Leppuni
 description: ಅಡಿಯೆ ಕಂಚಿಂದೆರ್, ಮೇಲ್ ಮೆಂಚಿಂದೆರ್, ಕಂಚಿ ಕರಗಂದ ಎರಮನೆಡ್, ಉಲ್ಲಾಯ ಉಲ್ಲಾಲ್ದಿ ಕಾಯ್ತಿಂದೆರ್ ಗೆ ಗೆ
 ---
 

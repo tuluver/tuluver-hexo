@@ -12,6 +12,7 @@ cdn: header-on
 index: 0
 edited: true
 date: 2020-07-20 08:49:36
+metadescription: Annappa Swami Annappa Panjurli
 description: ತುಳುನಾಡ ದೈವಾರಾಧನೆಡ್ ಪಂಜುರ್ಲಿಗ್ ಬಾರೀ ಮಾನಾದಿಗೆ ಉಂಡು. ಬಾರೀ ಪಿರಾಕುದ ದೈವ ಆಯಿನ ಪ್ರಾಣಿ ಸಮ್ಮಂದಿ ದೈವ ಪಂಜುರ್ಲಿ ರಾಜಂದೈವ ಆದ್, ಗ್ರಾಮ ದೈವ ಆದ್...
 ---
 

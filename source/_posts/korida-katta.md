@@ -10,6 +10,7 @@ header-img: /images/tuluver.jpg
 cdn: header-on
 index: 0
 date: 2020-09-21 12:31:42
+metadescription: Kori katta Koli anka Tulunad
 description: ತುಳುನಾಡ ನಂಬೊಳಿದ ಆಚರಣೆದ ಆರಾಧನೆಲೆಡ್ ಕೋರಿಗ್ ಅವೆತನವೇ ಆಯಿನ ಮಾನಾದಿಗೆ ಉಂಡು.
 ---
 # ತುಳುನಾಡ ಜನಪದ ಆಚರಣೆ ಕೋರಿದ ಕಟ್ಟ

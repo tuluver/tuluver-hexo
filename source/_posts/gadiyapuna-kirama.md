@@ -9,6 +9,7 @@ header-img: /images/tuluver.jpg
 cdn: header-on
 index: 0
 date: 2021-04-18 14:56:54
+metadescription: Daiva Gadi Enne Boolya Krama
 description: ಪ್ರಕೃತಿ ಸಗ್ತಿದ ದೈವಾರಾಧನೆದ ನ್ಯಾಯಸ್ಥಾನದ ಒರುವಾದ್ ಗಡಿಪಟ್ಟ ಇತ್ತ್ ದ್ ಇನಿತ ಜವನೆರೆ ಕಲೊಟು,ದೈವೊಲೆ ಕಲೊಟು ಮಾನಡಿಗೆದ ಗಡಿಪತ್ತಿನಕುಲು ದೂರ ಉಂತುನ ಪರಿಸ್ಥಿತಿ ಬೈದುಂಡು.
 ---
 

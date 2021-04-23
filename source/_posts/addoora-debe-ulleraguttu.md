@@ -10,6 +10,7 @@ header-img: /images/tuluver.jpg
 cdn: header-on
 index: 2
 date: 2020-09-07 17:49:12
+metadescription: Addoora Debe Ulleraguttu Dharmasthana Karnad
 description: ಕಾರ್ನಾಡು ಉಳ್ಳೇರಗುತ್ತು ಕುತ್ತಿಪುನ್ಕೆಡ್ ಜುಮಾದಿನ ಚಾಕಿರಿ ಮಲ್ತೊಂದು ಇತ್ತಿನ ಸಿದ್ದು ಕುಂದಾಯ ಪನ್ಪಿನರೆಗ್ ಅಡ್ಡೂರ ಸಾನದ ಇಲ್ಲದ ದೇರು ಬೈದ್ಯನ ತಂಗಡಿ ದೇಬೆ ಪನ್ಪಿನ ಎಲ್ಯ ಪ್ರಾಯದ ಪೊಣ್ಣನ್ ಮದಿಮೆ ಮಲ್ತ್ ಕೊರ್ಪೆರ್.
 ---
 # ಅಡ್ಡೂರ ದೇಬೆ - ಎಸಲ್ 1

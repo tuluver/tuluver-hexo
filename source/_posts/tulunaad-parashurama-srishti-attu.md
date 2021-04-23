@@ -9,6 +9,7 @@ cdn: header-on
 index: 0
 edited: true
 date: 2020-07-17 10:13:53
+metadescription: Parashurama Srusti Tulunad
 description: ಉಂದೆನ್ ನಿಕುಲು ಇಷ್ಟ ಆಂಡ ತೂಲೆ. ಇಜ್ಜಿನ್ದ ಬಡ್ದು ಬುಡ್ಲೆ.ಎನ್ನ ಅಭಿಪ್ರಾಯ ನಿಕ್ಲೆನಾವೊಡುಂದು ಇಜ್ಜಿ
 ---
 

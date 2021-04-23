@@ -10,6 +10,7 @@ header-img: /images/tuluver.jpg
 cdn: header-on
 index: 0
 date: 2020-09-16 11:18:14
+metadescription: Puddar Kural Enel
 description: ಪುದ್ದರುನ್ಪುಂಡಲಾ, ಕುರಲ್ ಕಟ್ಟ್ ದ್ ಇಲ್ಲ್ ದಿಂಜಾವುಂಡಲಾ ಕಾವೇರಿ ಸಂಕ್ರಾಂತಿರ್ದ್ ದುಂಬೇ ಮಲ್ಪೊಡು.
 ---
 # ಎಣೆಲ್ ಪೊಸ ಕುರಲ್ ಇಲ್ಲ್ ದಿಂಜಾದ್ ಪೊಸರಿ ಪುದ್ದರಾನಗ

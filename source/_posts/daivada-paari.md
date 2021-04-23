@@ -9,6 +9,7 @@ header-img: images/header3.jpg
 cdn: header-on
 index: 1
 date: 2020-07-24 14:56:41
+metadescription: Daiva Pari Paari
 description: ಪತ್ತ್ ಕೂಡಿತ್ ನ ತಲೊಟು ಮುತ್ತುಂಡಾಂಡ್ ಗೆಂದ್ ಹಿರಿಯಕ್ಲು ಮಲ್ತಿ ಕಟ್ಟ್. ಎಂಕ್ಲ್ ತೆರಿಯಂದಿ ನರಮಾನಿಲು. 
 ---
 

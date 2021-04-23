@@ -12,6 +12,7 @@ header-img: images/header3.jpg
 cdn: header-on
 index: 0
 date: 2020-08-01 14:50:51
+metadescription: Raksha bandhana Noola punname Guru poornime
 description: ಉಂದು ದಾದ ಇಸೇಸನ್ದ್ ನಿಕ್ಲು ಕೇನುವರ್. ತೂಲೆ ಗುಡ್ಡಗಾಡು ಪ್ರದೇಶೊಲೆಡ್ ಬದ್ಕೊಂತ್ ನಕ್ಲ್ ಪರಿಸರ ಪ್ರಕೃತಿ ಪ್ರಿಯೆರ್.
 ---
 

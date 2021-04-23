@@ -10,6 +10,7 @@ header-img: images/header3.jpg
 cdn: header-on
 index: 0
 date: 2020-07-23 19:09:45
+metadescription: Nagaradhane Tulunad Naga brahma
 description: ನಾಗಾರಾಧನೆಡ್ ಕಣ್ಣ್ಗ್ ತೋಜುನವು  ಸರ್ಪೆಗೆ,ತೋಜಂದಿನವು ನಾಗೆಗೆ.ಅಂಚನೆ ಸರ್ಪೆ ನಮಲೆಕನೇ ಸೈಪೆಗೆ,ನಾಗೆ ಸೈಪುಜೆಗೆ
 ---
 

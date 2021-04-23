@@ -10,6 +10,7 @@ header-img: images/header3.jpg
 cdn: header-on
 index: 0
 date: 2020-08-10 18:55:20
+metadescription: Attemi Astemi parba
 description: ಸೋಣ ತಿಂಗೊಲ್ದ ಅಮಾಸೆ ಕರಿದ್ 8ನೇ ದಿನತಾನಿ ಬರ್ಪುನವೇ ತುಳುನಾಡ ಸುರುತ ಆಡ್ಯೆ ತಿನ್ಪುನ ಪರ್ಬ *ಅಟ್ಟೆಮಿ*
 ---
 

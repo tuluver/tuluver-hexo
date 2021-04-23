@@ -10,6 +10,7 @@ header-img: images/header3.jpg
 cdn: header-on
 index: 0
 date: 2020-08-02 14:15:54
+metadescription: Mantradevate Mantrajavade
 description: ತುಳುನಾಡ ದೈವಾರಾಧನೆಡ್ ಪೊಣ್ಣ ಸಗ್ತಿದ ಒರುತ, ಪುಟ್ಟು ಸಾವು ದಾಂತಿ ಅಪರೂಪದ ಸಗ್ತಿ ಸತ್ಯ ಮಂತ್ರಜಾವದೆ ಪಂಡ ತಪ್ಪಾವಂದ್.
 ---
 

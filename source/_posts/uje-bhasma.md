@@ -10,6 +10,7 @@ header-img: images/header3.jpg
 cdn: header-on
 index: 0
 date: 2020-07-27 14:59:30
+metadescription: Madivala MAddela Uje Bhasma
 description: ಉಜೆ ಪನ್ಪಿ ಈ ಸವ್ದ ಇತ್ತೆದ ಎಚ್ಚಿನಕ್ಲೆಗ್ ತೆರಿದಿಪ್ಪೆರೆ ಸಾಧ್ಯ ಇಜ್ಜಿ. ದಾಯೆ ಪಂಡ ಉಂದು ದೈವದ ಪ್ರಧಾನ ಚಾಕಿರಿ ಭಾಗ ಆಯಿನ ಮಡ್ಯೆಲೆರೆಗ್ ಮಾತ್ರ ತೆರಿದುಪ್ಪೆರೆ ಸಾಧ್ಯ.
 ---
 
